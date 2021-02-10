@@ -13,7 +13,7 @@ npm install @stacks/storage
 ### Initiating a storage client
 
 ```typescript
-import { UserSession } from '@stacks/auth';
+import { UserSession, AppConfig } from '@stacks/auth';
 import { Storage } from '@stacks/storage';
 
 const appConfig = new AppConfig();
